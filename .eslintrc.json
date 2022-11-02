@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": false,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.js"],
+      "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+      "parserOptions": {
+        "project": "tsconfig.json",
+        "sourceType": "module",
+        "ecmaVersion": 2020
+      }
+    }
+  ],
+  "ignorePatterns": ["!.*"],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "warn"
+  }
+}

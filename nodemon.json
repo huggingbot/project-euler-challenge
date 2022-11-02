@@ -1,0 +1,9 @@
+{
+  "watch": ["src"],
+  "ext": "ts,js,json",
+  "exec": "ts-node -r tsconfig-paths/register --files src/index.ts",
+  "delay": "500",
+  "env": {
+    "NODE_ENV": "local"
+  }
+}

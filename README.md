@@ -10,6 +10,12 @@ Solution to Project Euler's problem 1 and 22.
   git clone https://github.com/huggingbot/project-euler-challenge.git
   ```
 
+- Change directory into the project
+
+  ```
+  cd project-euler-challenge
+  ```
+  
 - Install dependencies
 
   ```
